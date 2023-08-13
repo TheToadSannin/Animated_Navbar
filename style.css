@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  position: relative;
+}
+.navbar {
+  background: none;
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+}
+header {
+  margin-top: 100px;
+  transition: ease-in-out 0.5s;
+  border-radius: 20px;
+}
+.butns {
+  margin-top: 20px;
+  margin-left: auto;
+}
+.butns button {
+  transition: all ease-in-out 0.5s;
+  padding: 10px 20px;
+  margin-left: 50px;
+  font-size: larger;
+}
+.home,
+.invoice,
+.gallery,
+.support {
+  background: none;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+.contact-us {
+  border-radius: 25px;
+  margin-right: 20px;
+  background-color: rgb(3, 139, 193);
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  border: none;
+}
+
+.sticky {
+  margin-top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: grey;
+}
+button:hover {
+  cursor: pointer;
+}
+.sticky button {
+  color: black;
+}
